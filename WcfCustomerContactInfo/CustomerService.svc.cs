@@ -7,9 +7,10 @@ namespace WcfCustomerContactInfo
     {
         private readonly IBusinessController _businessController;
 
-        public CustomerService(IBusinessController businessController)
+        public CustomerService()
+            //IBusinessController businessController)
         {
-            _businessController = businessController;
+            _businessController = new BusinessController();
         }
 
         public bool AddCustomer(Customer newCustomer)
