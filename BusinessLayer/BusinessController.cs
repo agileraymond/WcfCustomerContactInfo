@@ -7,8 +7,7 @@ namespace BusinessLayer
     {
         public bool AddCustomer(Customer newCustomer)
         {
-            // TODO: call data layer here
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
