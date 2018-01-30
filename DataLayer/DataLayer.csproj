@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Customer.cs" />
     <Compile Include="DataController.cs" />
     <Compile Include="IDataController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
