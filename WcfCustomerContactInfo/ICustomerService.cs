@@ -1,5 +1,5 @@
 ﻿using System.ServiceModel;
-using WcfCustomerContactInfo.Contracts;
+using BusinessLayer.Contracts;
 
 namespace WcfCustomerContactInfo
 {
